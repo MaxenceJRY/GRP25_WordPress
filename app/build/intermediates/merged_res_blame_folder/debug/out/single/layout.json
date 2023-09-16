@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "vn.edu.usth.wordpress25.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-mergeDebugResources-43:/layout/fragment_notifications.xml",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-mergeDebugResources-43:/layout/fragment_me.xml",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_me.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-mergeDebugResources-43:/layout/fragment_home.xml",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-mergeDebugResources-43:/layout/fragment_dashboard.xml",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_dashboard.xml"
+    }
+]
