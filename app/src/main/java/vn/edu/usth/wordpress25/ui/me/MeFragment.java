@@ -19,6 +19,7 @@ public class MeFragment extends Fragment {
 
     private FragmentMeBinding binding;
 
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
     /*    MeViewModel MeViewModel =
