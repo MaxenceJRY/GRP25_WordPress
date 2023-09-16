@@ -4,16 +4,14 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 
 import vn.edu.usth.wordpress25.R;
 import vn.edu.usth.wordpress25.databinding.FragmentMeBinding;
-import vn.edu.usth.wordpress25.databinding.FragmentNotificationsBinding;
-import vn.edu.usth.wordpress25.ui.notifications.NotificationsViewModel;
 
 public class MeFragment extends Fragment {
 
@@ -22,6 +20,7 @@ public class MeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
     /*    MeViewModel MeViewModel =
                 new ViewModelProvider(this).get(MeViewModel.class);
 
@@ -31,7 +30,23 @@ public class MeFragment extends Fragment {
         final TextView textView = binding.textMe;
         MeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;*/
-        return inflater.inflate(R.layout.fragment_me, container, false);
+        View view = inflater.inflate(R.layout.fragment_me, container, false);
+
+        LinearLayout myprofilLinearLayout = view.findViewById(R.id.myprofil);
+        myprofilLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Navigation.findNavController(v).navigate(R.id.myprofil2);
+            }
+        });
+        LinearLayout secondLinearLayout = view.findViewById(R.id.AccountSettings);
+        secondLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.accountsettings);
+            }
+        });
+        return view;
     }
 
     @Override
