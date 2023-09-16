@@ -22,4 +22,9 @@
         android:name="vn.edu.usth.wordpress25.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="vn.edu.usth.wordpress25.ui.me.MeFragment"
+        android:label="@string/title_me"
+        tools:layout="@layout/fragment_me" />
 </navigation>
