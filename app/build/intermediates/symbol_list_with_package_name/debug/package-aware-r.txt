@@ -3510,6 +3510,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id tabLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3565,6 +3566,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3716,6 +3718,11 @@ layout design_text_input_start_icon
 layout fragment_dashboard
 layout fragment_home
 layout fragment_me
+layout fragment_notif_all
+layout fragment_notif_comments
+layout fragment_notif_follows
+layout fragment_notif_likes
+layout fragment_notif_unread
 layout fragment_notifications
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3828,6 +3835,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
