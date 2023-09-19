@@ -8,6 +8,10 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <permission
         android:name="vn.edu.usth.wordpress25.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -27,6 +31,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.WordPress25" >
+        <activity
+            android:name="vn.edu.usth.wordpress25.ui.me.myprofile"
+            android:exported="false"
+            android:label="@string/title_activity_my_profil"
+            android:parentActivityName="vn.edu.usth.wordpress25.ui.me.MeFragment"
+            android:theme="@style/Theme.WordPress25" />
+        <activity
+            android:name="vn.edu.usth.wordpress25.ui.me.Account_settings"
+            android:exported="false"
+            android:label="@string/title_activity_account_settings"
+            android:parentActivityName="vn.edu.usth.wordpress25.ui.me.MeFragment"
+            android:theme="@style/Theme.WordPress25" />
         <activity
             android:name="vn.edu.usth.wordpress25.ui.MainActivity"
             android:exported="true"

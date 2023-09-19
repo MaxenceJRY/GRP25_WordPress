@@ -30,14 +30,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:paddingTop="19dp"
-                android:text="Name"
+                android:text="@string/name"
                 android:textSize="24dp"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Surname"
+                android:text="@string/surname"
                 android:textSize="18dp"></TextView>
         </LinearLayout>
     </LinearLayout>
@@ -52,8 +52,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:clickable="true"
-            android:id="@+id/myprofil"
-            android:orientation="horizontal">
+            android:id="@+id/my_profile"
+            android:orientation="horizontal"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -71,13 +72,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="My profil"
+                android:text="@string/my_p"
                 android:textSize="18dp" />
 
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -86,7 +87,8 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:id="@+id/AccountSettings"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -104,12 +106,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Account Settings"
+                android:text="@string/acc_set"
                 android:textSize="18dp" />
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -118,7 +120,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:clickable="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/click_scan"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -136,12 +140,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Scan Login Code"
+                android:text="@string/scan"
                 android:textSize="18dp" />
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -150,7 +154,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:clickable="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/click_app_Set"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -168,12 +174,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="App Settings"
+                android:text="@string/app_set"
                 android:textSize="18dp" />
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -182,7 +188,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:clickable="true"
-            android:orientation="horizontal">
+            android:id="@+id/click_help"
+            android:orientation="horizontal"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -200,13 +208,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Help"
+                android:text="@string/help"
                 android:textSize="18dp" />
 
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -214,7 +222,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/click_share"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -232,12 +242,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Share JetPack with a friend"
+                android:text="@string/share"
                 android:textSize="18dp" />
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -246,7 +256,8 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:clickable="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -264,12 +275,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="About Jetpack"
+                android:text="@string/about_w"
                 android:textSize="18dp" />
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
@@ -278,7 +289,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/row48"
             android:clickable="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/click_log_out"
+            android:background="@drawable/selector_background">
 
             <RelativeLayout
                 android:layout_width="96dp"
@@ -296,15 +309,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="Log out of Jetpack"
+                android:text="@string/log_out"
                 android:textSize="18dp" />
         </LinearLayout>
 
         <RelativeLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#606C6C6C"
             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
