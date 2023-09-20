@@ -6,7 +6,7 @@
     <string name="title_me">About me</string>
     <string name="title_activity_account_settings">Account Settings</string>
     <!-- Dimensions -->
-    <dimen name="row48">48dp</dimen>
+    <dimen name="row">48dp</dimen>
     <string name="title_activity_my_profil">MyProfile</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -27,6 +27,7 @@
     <string name="log_out">Log out of Wordpress</string>
 
     <!-- My Profile -->
+
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="x_first_name">MyFirstName</string>
@@ -81,6 +82,7 @@
     <string name="logs">Logs</string>
     <string name="version">Version 23.1.0</string>
 
-
+    <!-- Dialog Log Out -->
+    <string name="log_out_word">Log out of Wordpress ?</string>
 
 </resources>

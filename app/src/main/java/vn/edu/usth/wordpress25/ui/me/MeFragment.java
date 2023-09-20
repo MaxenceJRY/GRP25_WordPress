@@ -27,9 +27,10 @@ public class MeFragment extends Fragment {
         myprofilLinearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Navigation.findNavController(v).navigate(R.id.myprofile);
+                Navigation.findNavController(v).navigate(R.id.myprofile);
             }
         });
+
         LinearLayout secondLinearLayout = view.findViewById(R.id.AccountSettings);
         secondLinearLayout.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -44,7 +44,11 @@
         android:id="@+id/myprofile"
         android:name="vn.edu.usth.wordpress25.ui.me.myprofile"
         android:label="My profile"
-        tools:layout="@layout/fragment_myprofile" />
+        tools:layout="@layout/fragment_myprofile" >
+        <action
+            android:id="@+id/action_myprofile_to_first_Name"
+            app:destination="@id/first_Name" />
+    </fragment>
     <fragment
         android:id="@+id/accountsettings"
         android:name="vn.edu.usth.wordpress25.ui.me.Account_settings"
@@ -60,4 +64,9 @@
         android:name="vn.edu.usth.wordpress25.ui.me.Help"
         android:label="Aide"
         tools:layout="@layout/fragment_help" />
+    <dialog
+        android:id="@+id/first_Name"
+        android:name="vn.edu.usth.wordpress25.ui.me.First_Name"
+        android:label="fragment_first_name"
+        tools:layout="@layout/fragment_first_name" />
 </navigation>

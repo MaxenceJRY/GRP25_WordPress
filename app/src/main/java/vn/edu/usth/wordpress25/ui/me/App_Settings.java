@@ -5,8 +5,10 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -47,7 +49,19 @@ public class App_Settings extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_app_settings, container, false);
         setHasOptionsMenu(true);
+        LinearLayout themeLayout = view.findViewById(R.id.theme);
+        themeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialog();
+            }
+        });
         return view;
+    }
+
+    private void showDialog() {
+        DialogFragment dialogFragment = new Appearance();
+        dialogFragment.show(getChildFragmentManager(), "theme_dialog");
     }
 
     @Override

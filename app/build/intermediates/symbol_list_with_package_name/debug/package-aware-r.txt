@@ -2085,6 +2085,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color separation
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2093,6 +2094,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color teal_200
 color teal_700
+color text
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2866,7 +2868,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-dimen row48
+dimen row
 dimen sliding_pane_detail_pane_width
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -3079,8 +3081,10 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Light_radio
 id META
 id NO_DEBUG
+id Public_dis
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3088,6 +3092,8 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Theme_radio
+id aboutme
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3142,6 +3148,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_myprofile_to_first_Name
 id action_navigation_me_to_accountsettings
 id action_navigation_me_to_app_Settings
 id action_navigation_me_to_help
@@ -3223,6 +3230,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dark_radio
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3257,6 +3265,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
 id edit_query
 id elastic
 id embed
@@ -3272,6 +3281,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id first_Name
 id fitCenter
 id fitEnd
 id fitStart
@@ -3392,6 +3402,8 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id my_profile
+id myfirstname
+id mylastname
 id myprofile
 id nav_controller_view_tag
 id nav_host_fragment_activity_main
@@ -3601,6 +3613,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id theme
 id time
 id title
 id titleDividerNoCustom
@@ -3773,12 +3786,16 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_about
+layout fragment_about_me
 layout fragment_account_settings
 layout fragment_app_settings
+layout fragment_appearance
 layout fragment_dashboard
 layout fragment_dialog_logout
+layout fragment_first_name
 layout fragment_help
 layout fragment_home
+layout fragment_last_name
 layout fragment_me
 layout fragment_myprofile
 layout fragment_notif_all
@@ -3787,6 +3804,7 @@ layout fragment_notif_follows
 layout fragment_notif_likes
 layout fragment_notif_unread
 layout fragment_notifications
+layout fragment_public_display_name
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3922,6 +3940,7 @@ string inter_lang
 string item_view_role_description
 string last_name
 string log_out
+string log_out_word
 string logs
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
