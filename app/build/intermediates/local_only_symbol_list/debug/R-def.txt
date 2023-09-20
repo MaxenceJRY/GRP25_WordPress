@@ -51,6 +51,7 @@ id click_share
 id container
 id dark_radio
 id editTextText
+id emailadd
 id first_Name
 id frame_app_set
 id frame_my_profil
@@ -110,6 +111,7 @@ id text_home
 id text_notifications
 id theme
 id viewPager
+id web_address
 layout activity_main
 layout fragment_about
 layout fragment_about_me
@@ -118,6 +120,7 @@ layout fragment_app_settings
 layout fragment_appearance
 layout fragment_dashboard
 layout fragment_dialog_logout
+layout fragment_email_address
 layout fragment_first_name
 layout fragment_help
 layout fragment_home
@@ -131,6 +134,7 @@ layout fragment_notif_likes
 layout fragment_notif_unread
 layout fragment_notifications
 layout fragment_public_display_name
+layout fragment_web_address
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

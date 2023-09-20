@@ -101,7 +101,6 @@ public class myprofile extends Fragment {
         DialogFragment dialogFragment = new First_Name();
         dialogFragment.show(getChildFragmentManager(), "My First Name");
     }
-
     private void showDialogLast() {
         DialogFragment dialogFragment = new Last_Name();
         dialogFragment.show(getChildFragmentManager(), "My Last Name");

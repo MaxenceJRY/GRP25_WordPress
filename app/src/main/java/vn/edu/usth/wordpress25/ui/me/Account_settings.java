@@ -2,6 +2,7 @@ package vn.edu.usth.wordpress25.ui.me;
 
 import android.os.Bundle;
 
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -9,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import vn.edu.usth.wordpress25.R;
 
@@ -64,8 +66,33 @@ public class Account_settings extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_account_settings, container, false);
+        View view = inflater.inflate(R.layout.fragment_account_settings, container, false);
+        LinearLayout email_add_layout = view.findViewById(R.id.emailadd);
+        LinearLayout web_add_layout = view.findViewById(R.id.web_address);
+        email_add_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogEmailAdd();
+            }
+        });
+        web_add_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogWebAdd();
+            }
+        });
+        return view;
     }
+
+    private void showDialogEmailAdd() {
+        DialogFragment dialogFragment = new Email_address();
+        dialogFragment.show(getChildFragmentManager(), "My Email Address");
+    }
+    private void showDialogWebAdd() {
+        DialogFragment dialogFragment = new Web_address();
+        dialogFragment.show(getChildFragmentManager(), "My Web Address");
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {

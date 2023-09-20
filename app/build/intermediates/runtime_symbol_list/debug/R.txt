@@ -3267,6 +3267,7 @@ int id edge 0x7f0800ba
 int id editTextText 0x7f08023e
 int id edit_query 0x7f0800bb
 int id elastic 0x7f0800bc
+int id emailadd 0x7f080244
 int id embed 0x7f0800bd
 int id end 0x7f0800be
 int id endToStart 0x7f0800bf
@@ -3644,6 +3645,7 @@ int id view_tree_saved_state_registry_owner 0x7f08022e
 int id view_tree_view_model_store_owner 0x7f08022f
 int id visible 0x7f080230
 int id visible_removing_fragment_view_tag 0x7f080231
+int id web_address 0x7f080245
 int id west 0x7f080232
 int id withText 0x7f080233
 int id with_icon 0x7f080234
@@ -3791,6 +3793,7 @@ int layout fragment_app_settings 0x7f0b002f
 int layout fragment_appearance 0x7f0b0030
 int layout fragment_dashboard 0x7f0b0031
 int layout fragment_dialog_logout 0x7f0b0032
+int layout fragment_email_address 0x7f0b007e
 int layout fragment_first_name 0x7f0b007a
 int layout fragment_help 0x7f0b0033
 int layout fragment_home 0x7f0b0034
@@ -3804,6 +3807,7 @@ int layout fragment_notif_likes 0x7f0b003a
 int layout fragment_notif_unread 0x7f0b003b
 int layout fragment_notifications 0x7f0b003c
 int layout fragment_public_display_name 0x7f0b007c
+int layout fragment_web_address 0x7f0b007f
 int layout m3_alert_dialog 0x7f0b003d
 int layout m3_alert_dialog_actions 0x7f0b003e
 int layout m3_alert_dialog_title 0x7f0b003f

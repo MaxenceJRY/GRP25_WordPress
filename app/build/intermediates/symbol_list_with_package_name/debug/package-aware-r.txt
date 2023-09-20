@@ -3268,6 +3268,7 @@ id edge
 id editTextText
 id edit_query
 id elastic
+id emailadd
 id embed
 id end
 id endToStart
@@ -3645,6 +3646,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id web_address
 id west
 id withText
 id with_icon
@@ -3792,6 +3794,7 @@ layout fragment_app_settings
 layout fragment_appearance
 layout fragment_dashboard
 layout fragment_dialog_logout
+layout fragment_email_address
 layout fragment_first_name
 layout fragment_help
 layout fragment_home
@@ -3805,6 +3808,7 @@ layout fragment_notif_likes
 layout fragment_notif_unread
 layout fragment_notifications
 layout fragment_public_display_name
+layout fragment_web_address
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
