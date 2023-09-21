@@ -137,12 +137,13 @@
             android:background="@color/separation" />
 
         <LinearLayout
+            android:id="@+id/init_screen"
             android:layout_width="match_parent"
             android:layout_height="@dimen/row"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
-            android:paddingLeft="24dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingLeft="24dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -154,14 +155,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/init_screen"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/x_init_screen"
-                    android:textSize="16dp"/>
+                    android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -229,12 +230,14 @@
             android:background="@color/separation" />
 
         <LinearLayout
+            android:id="@+id/max_i_s"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/row"
+            android:layout_height="72dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
             android:orientation="horizontal"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"
-            android:paddingLeft="24dp">
+            android:paddingLeft="24dp"
+            android:background="@drawable/selector_background">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -243,20 +246,22 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView22"
+                    android:id="@+id/textViewMaxI"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="20dp"
-                    android:text="@string/max_image_size"/>
+                    android:text="@string/max_image_size"
+                    android:textColor="@color/disable"
+                    android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/textViewMaxISet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16dp"
-                    android:text="@string/x_max_i_size"/>
+                    android:text="@string/x_max_i_size"
+                    android:textColor="@color/disable"
+                    android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -267,12 +272,14 @@
             android:background="@color/separation" />
 
         <LinearLayout
+            android:id="@+id/image_q"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/row"
+            android:layout_height="72dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
             android:orientation="horizontal"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"
-            android:paddingLeft="24dp">
+            android:paddingLeft="24dp"
+            android:background="@drawable/selector_background">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -280,18 +287,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView24"
+                    android:id="@+id/textViewImageQ"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/image_q"
-                    android:textSize="20dp"/>
+                    android:textColor="@color/disable"
+                    android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/textView25"
+                    android:id="@+id/textViewImageQSet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/x_image_q"
-                    android:textSize="16dp"/>
+                    android:textColor="@color/disable"
+                    android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -352,8 +361,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16dp"
-                    android:text="@string/enable_opti_v"/>
+                    android:text="@string/enable_opti_v"
+                    android:textSize="16dp" />
             </LinearLayout>
 
             <Switch
@@ -372,11 +381,12 @@
             android:background="@color/separation"/>
 
         <LinearLayout
+            android:id="@+id/max_v_s"
             android:layout_width="match_parent"
             android:layout_height="@dimen/row"
-            android:orientation="horizontal"
-            android:layout_marginBottom="12dp"
             android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal"
             android:paddingLeft="24dp">
 
             <LinearLayout
@@ -385,20 +395,22 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView29"
+                    android:id="@+id/textViewMaxV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="20dp"
-                    android:text="@string/max_videos_size"/>
+                    android:text="@string/max_videos_size"
+                    android:textColor="@color/disable"
+                    android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/textView30"
+                    android:id="@+id/textViewMaxVS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16dp"
-                    android:text="@string/x_max_v_size"/>
+                    android:text="@string/x_max_v_size"
+                    android:textColor="@color/disable"
+                    android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -409,11 +421,12 @@
             android:background="@color/separation" />
 
         <LinearLayout
+            android:id="@+id/video_q"
             android:layout_width="match_parent"
             android:layout_height="@dimen/row"
-            android:orientation="horizontal"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="60dp"
+            android:orientation="horizontal"
             android:paddingLeft="24dp">
 
             <LinearLayout
@@ -422,20 +435,22 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView31"
+                    android:id="@+id/textViewVideoQ"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="20dp"
-                    android:text="@string/video_q"/>
+                    android:text="@string/video_q"
+                    android:textColor="@color/disable"
+                    android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/textViewVQSet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textSize="16dp"
-                    android:text="@string/x_video_q"/>
+                    android:text="@string/x_video_q"
+                    android:textColor="@color/disable"
+                    android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
 

@@ -69,6 +69,8 @@ public class Account_settings extends Fragment {
         View view = inflater.inflate(R.layout.fragment_account_settings, container, false);
         LinearLayout email_add_layout = view.findViewById(R.id.emailadd);
         LinearLayout web_add_layout = view.findViewById(R.id.web_address);
+        LinearLayout change_pass_layout = view.findViewById(R.id.change_pass);
+        LinearLayout close_acc_layout = view.findViewById(R.id.close_acc);
         email_add_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,6 +83,18 @@ public class Account_settings extends Fragment {
                 showDialogWebAdd();
             }
         });
+        change_pass_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogChangePass();
+            }
+        });
+        close_acc_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogCloseAcc();
+            }
+        });
         return view;
     }
 
@@ -91,6 +105,14 @@ public class Account_settings extends Fragment {
     private void showDialogWebAdd() {
         DialogFragment dialogFragment = new Web_address();
         dialogFragment.show(getChildFragmentManager(), "My Web Address");
+    }
+    private void showDialogChangePass() {
+        DialogFragment dialogFragment = new Change_password();
+        dialogFragment.show(getChildFragmentManager(), "My Password");
+    }
+    private void showDialogCloseAcc() {
+        DialogFragment dialogFragment = new Close_acc();
+        dialogFragment.show(getChildFragmentManager(), "Close my account");
     }
 
     @Override
