@@ -4,8 +4,10 @@ import android.os.Bundle;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -53,6 +55,7 @@ public class Commentsononthersites extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -77,5 +80,14 @@ public class Commentsononthersites extends Fragment {
     private void showDialogNotiftab() {
         DialogFragment dialogFragment = new notificationstab();
         dialogFragment.show(getChildFragmentManager(), "Notiftab");
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            // Utilisez NavController pour revenir en arrière
+            NavHostFragment.findNavController(this).navigateUp();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

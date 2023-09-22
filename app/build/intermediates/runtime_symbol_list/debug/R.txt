@@ -2996,6 +2996,7 @@ int drawable ic_notifications_black_24dp 0x7f07009b
 int drawable ic_search_black_24 0x7f07009c
 int drawable ic_settings 0x7f07009d
 int drawable ic_wordpress 0x7f0700f1
+int drawable imagemail1 0x7f0700f2
 int drawable log_out 0x7f07009e
 int drawable m3_appbar_background 0x7f07009f
 int drawable m3_avd_hide_password 0x7f0700a0
@@ -3078,6 +3079,7 @@ int drawable smartphone 0x7f0700ec
 int drawable test_level_drawable 0x7f0700ed
 int drawable tooltip_frame_dark 0x7f0700ee
 int drawable tooltip_frame_light 0x7f0700ef
+int drawable vector1 0x7f0700f3
 int drawable wordpress_blue_logo 0x7f0700f0
 int id ALT 0x7f080000
 int id AccountSettings 0x7f080001
@@ -3332,6 +3334,7 @@ int id image 0x7f0800f8
 int id imageView 0x7f0800f9
 int id imageView2 0x7f0800fa
 int id imageView24 0x7f0800fb
+int id imageView3 0x7f08026b
 int id image_q 0x7f0800fc
 int id immediateStop 0x7f0800fd
 int id included 0x7f0800fe
@@ -3619,6 +3622,7 @@ int id textView21 0x7f080214
 int id textView22 0x7f080215
 int id textView23 0x7f080216
 int id textView24 0x7f080217
+int id textView25 0x7f08026c
 int id textView26 0x7f080218
 int id textView27 0x7f080219
 int id textView28 0x7f08021a

@@ -1,4 +1,4 @@
-#Fri Sep 22 09:39:36 ICT 2023
+#Fri Sep 22 11:15:47 ICT 2023
 base.0=C\:\\Users\\vladi\\AndroidStudioProjects\\MAD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\vladi\\AndroidStudioProjects\\MAD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\vladi\\AndroidStudioProjects\\MAD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex

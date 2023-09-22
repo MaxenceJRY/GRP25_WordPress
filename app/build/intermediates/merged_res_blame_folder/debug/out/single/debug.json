@@ -28,12 +28,12 @@
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\menu\\menu_notification.xml"
     },
     {
-        "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_settings.png.flat",
-        "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\settings.png"
-    },
-    {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\layout_fragment_dashboard.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_settings.png.flat",
+        "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\settings.png"
     },
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/layout_fragment_notif_follows.xml.flat",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_notif_follows.xml"
     },
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\layout_fragment_notif_all.xml.flat",
@@ -108,6 +112,10 @@
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\layout\\fragment_first_name.xml"
     },
     {
+        "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_imagemail1.png.flat",
+        "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\imagemail1.png"
+    },
+    {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\layout_fragment_image_quality.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\layout\\fragment_image_quality.xml"
     },
@@ -116,16 +124,16 @@
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\layout\\fragment_notif_unread.xml"
     },
     {
-        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/navigation_mobile_navigation.xml.flat",
-        "source": "vn.edu.usth.wordpress25.app-main-46:/navigation/mobile_navigation.xml"
-    },
-    {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_ic_settings.png.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/layout_fragment_mail1.xml.flat",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_mail1.xml"
     },
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\layout_fragment_about_me.xml.flat",
@@ -220,12 +228,20 @@
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\share.png"
     },
     {
+        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/drawable_vector1.jpg.flat",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/drawable/vector1.jpg"
+    },
+    {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_profil_picture.png.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\profil_picture.png"
     },
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/layout_fragment_notif_unread.xml.flat",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_notif_unread.xml"
     },
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -272,6 +288,10 @@
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/layout_fragment_notif_likes.xml.flat",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_notif_likes.xml"
+    },
+    {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\layout_fragment_mail1.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\layout\\fragment_mail1.xml"
     },
@@ -282,5 +302,9 @@
     {
         "merged": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-merged_res-44:\\drawable_ic_home_black_24dp.xml.flat",
         "source": "C:\\Users\\vladi\\.gradle\\daemon\\8.0\\vn.edu.usth.wordpress25.app-main-46:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "vn.edu.usth.wordpress25.app-merged_res-44:/layout_fragment_notif_comments.xml.flat",
+        "source": "vn.edu.usth.wordpress25.app-main-46:/layout/fragment_notif_comments.xml"
     }
 ]

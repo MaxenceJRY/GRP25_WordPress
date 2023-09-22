@@ -27,6 +27,7 @@ drawable ic_notif
 drawable ic_notifications_black_24dp
 drawable ic_settings
 drawable ic_wordpress
+drawable imagemail1
 drawable log_out
 drawable profil
 drawable profil_picture
@@ -35,6 +36,7 @@ drawable selector_background
 drawable settings
 drawable share
 drawable smartphone
+drawable vector1
 drawable wordpress_blue_logo
 id AccountSettings
 id Light_radio
@@ -71,6 +73,7 @@ id help
 id imageView
 id imageView2
 id imageView24
+id imageView3
 id image_q
 id init_screen
 id linear_pp
@@ -124,6 +127,7 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
 id textView26
 id textView27
 id textView28
