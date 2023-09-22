@@ -54,6 +54,9 @@ id action_notifAllFragment_to_mail15
 id action_notifSettings_to_commentsononthersites
 id action_settings
 id app_Settings
+id buttonreader
+id buttonreaderf
+id buttonreaderl
 id change_pass
 id click_app_Set
 id click_help
@@ -134,6 +137,7 @@ id textView28
 id textView3
 id textView33
 id textView34
+id textView37
 id textView4
 id textView5
 id textView6

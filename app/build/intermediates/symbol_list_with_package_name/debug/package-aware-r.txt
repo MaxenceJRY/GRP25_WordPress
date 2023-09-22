@@ -3198,6 +3198,9 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id buttonreader
+id buttonreaderf
+id buttonreaderl
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3630,6 +3633,7 @@ id textView28
 id textView3
 id textView33
 id textView34
+id textView37
 id textView4
 id textView5
 id textView6

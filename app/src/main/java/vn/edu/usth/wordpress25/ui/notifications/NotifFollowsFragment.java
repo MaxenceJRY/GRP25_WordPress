@@ -2,11 +2,15 @@ package vn.edu.usth.wordpress25.ui.notifications;
 
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import vn.edu.usth.wordpress25.R;
 
@@ -60,7 +64,22 @@ public class NotifFollowsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_notif_follows, container, false);
+        View view = inflater.inflate(R.layout.fragment_notif_follows, container, false);
+        Button button = view.findViewById(R.id.buttonreaderf); // Assurez-vous que le bouton a l'ID correct
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Accédez à l'activité parente
+                AppCompatActivity activity = (AppCompatActivity) getActivity();
+
+                // Accédez à la barre de navigation
+                BottomNavigationView bottomNavigationView = activity.findViewById(R.id.nav_view); // Remplacez par l'ID de votre barre de navigation
+
+                // Sélectionnez l'onglet "Dashboard"
+                bottomNavigationView.setSelectedItemId(R.id.navigation_dashboard);
+            }
+        });
+
+        return view;
     }
 }

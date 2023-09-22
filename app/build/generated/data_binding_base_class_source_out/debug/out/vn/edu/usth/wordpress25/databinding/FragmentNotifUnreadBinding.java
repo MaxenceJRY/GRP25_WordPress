@@ -4,25 +4,38 @@ package vn.edu.usth.wordpress25.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import vn.edu.usth.wordpress25.R;
 
 public final class FragmentNotifUnreadBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
 
-  private FragmentNotifUnreadBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final TextView textView25;
+
+  private FragmentNotifUnreadBinding(@NonNull RelativeLayout rootView,
+      @NonNull ImageView imageView3, @NonNull TextView textView25) {
     this.rootView = rootView;
+    this.imageView3 = imageView3;
+    this.textView25 = textView25;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +56,25 @@ public final class FragmentNotifUnreadBinding implements ViewBinding {
 
   @NonNull
   public static FragmentNotifUnreadBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
 
-    return new FragmentNotifUnreadBinding((FrameLayout) rootView);
+      id = R.id.textView25;
+      TextView textView25 = ViewBindings.findChildViewById(rootView, id);
+      if (textView25 == null) {
+        break missingId;
+      }
+
+      return new FragmentNotifUnreadBinding((RelativeLayout) rootView, imageView3, textView25);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

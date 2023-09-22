@@ -3,14 +3,18 @@ package vn.edu.usth.wordpress25.ui.notifications;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.ViewPager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import vn.edu.usth.wordpress25.R;
 import vn.edu.usth.wordpress25.ui.dashboard.DashboardFragment;
@@ -65,11 +69,24 @@ public class NotifCommentsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_notif_comments, container, false);
+        Button button = view.findViewById(R.id.buttonreader); // Assurez-vous que le bouton a l'ID correct
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Accédez à l'activité parente
+                AppCompatActivity activity = (AppCompatActivity) getActivity();
 
+                // Accédez à la barre de navigation
+                BottomNavigationView bottomNavigationView = activity.findViewById(R.id.nav_view); // Remplacez par l'ID de votre barre de navigation
 
+                // Sélectionnez l'onglet "Dashboard"
+                bottomNavigationView.setSelectedItemId(R.id.navigation_dashboard);
+            }
+        });
 
         return view;
     }
+
 
 
 }
