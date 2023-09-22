@@ -2980,6 +2980,7 @@ drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_dashboard_black_24dp
+drawable ic_email
 drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2991,8 +2992,11 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notif
 drawable ic_notifications_black_24dp
 drawable ic_search_black_24
+drawable ic_settings
+drawable ic_wordpress
 drawable log_out
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3154,6 +3158,10 @@ id action_navigation_me_to_accountsettings
 id action_navigation_me_to_app_Settings
 id action_navigation_me_to_help
 id action_navigation_me_to_myprofil2
+id action_navigation_notifications_to_notifSettings
+id action_notifAllFragment_to_mail15
+id action_notifSettings_to_commentsononthersites
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3217,6 +3225,7 @@ id clockwise
 id close_acc
 id closest
 id collapseActionView
+id commentsononthersites
 id compress
 id confirm_button
 id constraint
@@ -3321,6 +3330,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
+id imageView24
 id image_q
 id immediateStop
 id included
@@ -3347,6 +3359,8 @@ id list_item
 id locale
 id ltr
 id m3_side_sheet
+id mail1
+id mail15
 id marquee
 id masked
 id match_constraint
@@ -3436,12 +3450,16 @@ id noState
 id none
 id normal
 id north
+id notifAllFragment
+id notifSettings
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notiftab1
 id off
 id on
 id onInterceptTouchReturnSwipe
+id other
 id outline
 id outward
 id overshoot
@@ -3555,6 +3573,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switch1
 id switch2
 id switch3
 id switch4
@@ -3582,6 +3601,8 @@ id textStart
 id textTop
 id textView
 id textView10
+id textView101
+id textView1011
 id textView11
 id textView12
 id textView13
@@ -3590,10 +3611,15 @@ id textView15
 id textView16
 id textView17
 id textView18
+id textView181
+id textView1811
 id textView19
 id textView2
 id textView20
 id textView21
+id textView22
+id textView23
+id textView24
 id textView26
 id textView27
 id textView28
@@ -3619,7 +3645,6 @@ id text_home
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_notifications
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3807,6 +3832,7 @@ layout fragment_app_settings
 layout fragment_appearance
 layout fragment_change_password
 layout fragment_close_acc
+layout fragment_commentsononthersites
 layout fragment_dashboard
 layout fragment_dialog_logout
 layout fragment_email_address
@@ -3816,6 +3842,7 @@ layout fragment_home
 layout fragment_image_quality
 layout fragment_initial_screen
 layout fragment_last_name
+layout fragment_mail1
 layout fragment_maximum_i_s
 layout fragment_me
 layout fragment_myprofile
@@ -3823,8 +3850,10 @@ layout fragment_notif_all
 layout fragment_notif_comments
 layout fragment_notif_follows
 layout fragment_notif_likes
+layout fragment_notif_settings
 layout fragment_notif_unread
 layout fragment_notifications
+layout fragment_notificationstab
 layout fragment_public_display_name
 layout fragment_web_address
 layout m3_alert_dialog
@@ -3889,6 +3918,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
+menu menu_notification
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
@@ -4402,6 +4432,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style CustomTabLayout
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text

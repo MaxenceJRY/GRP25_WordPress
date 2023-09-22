@@ -4,25 +4,32 @@ package vn.edu.usth.wordpress25.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import vn.edu.usth.wordpress25.R;
 
 public final class FragmentNotifAllBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
-  private FragmentNotifAllBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final LinearLayout mail1;
+
+  private FragmentNotifAllBinding(@NonNull ScrollView rootView, @NonNull LinearLayout mail1) {
     this.rootView = rootView;
+    this.mail1 = mail1;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -43,10 +50,19 @@ public final class FragmentNotifAllBinding implements ViewBinding {
 
   @NonNull
   public static FragmentNotifAllBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.mail1;
+      LinearLayout mail1 = ViewBindings.findChildViewById(rootView, id);
+      if (mail1 == null) {
+        break missingId;
+      }
 
-    return new FragmentNotifAllBinding((FrameLayout) rootView);
+      return new FragmentNotifAllBinding((ScrollView) rootView, mail1);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

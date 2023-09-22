@@ -3,10 +3,12 @@ package vn.edu.usth.wordpress25.ui.notifications;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import vn.edu.usth.wordpress25.R;
 
@@ -61,6 +63,16 @@ public class NotifAllFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_notif_all, container, false);
+
+        View view=inflater.inflate(R.layout.fragment_notif_all,container,false);
+        LinearLayout mail1 = view.findViewById(R.id.mail1);
+
+        mail1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.mail15);
+            }
+        });
+        return view;
     }
 }
