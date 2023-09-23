@@ -63,14 +63,12 @@ public class Help extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_help, container, false);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            // Utilisez NavController pour revenir en arrière
             NavHostFragment.findNavController(this).navigateUp();
             return true;
         }

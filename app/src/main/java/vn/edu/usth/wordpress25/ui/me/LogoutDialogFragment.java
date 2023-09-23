@@ -19,14 +19,11 @@ public class LogoutDialogFragment extends DialogFragment {
                 .setPositiveButton("Log Out", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // Gérez la déconnexion ici
-                        // ...
                     }
                 })
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // Fermez le dialogue
                         dialog.dismiss();
                     }
                 });

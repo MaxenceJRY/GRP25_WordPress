@@ -24,7 +24,6 @@ public class First_Name extends DialogFragment {
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // Fermez le dialogue
                         dialog.dismiss();
                     }
                 });

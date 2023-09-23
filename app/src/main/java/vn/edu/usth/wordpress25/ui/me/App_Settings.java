@@ -30,7 +30,7 @@ public class App_Settings extends Fragment {
         // Required empty public constructor
     }
 
-    public static App_Settings newInstance(String param1, String param2) {
+    public App_Settings newInstance(String param1, String param2) {
         App_Settings fragment = new App_Settings();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -55,7 +55,6 @@ public class App_Settings extends Fragment {
         View view = inflater.inflate(R.layout.fragment_app_settings, container, false);
         setHasOptionsMenu(true);
 
-        // Trouver les vues
         LinearLayout themeLayout = view.findViewById(R.id.theme);
         LinearLayout initScreenLayout = view.findViewById(R.id.init_screen);
         LinearLayout MaximumISLayout = view.findViewById(R.id.max_i_s);
@@ -72,12 +71,10 @@ public class App_Settings extends Fragment {
         TextView MaxVSet = MaximumVSLayout.findViewById(R.id.textViewMaxVS);
         TextView VideoQ = QualityVLayout.findViewById(R.id.textViewVideoQ);
         TextView VideoQSet = QualityVLayout.findViewById(R.id.textViewVQSet);
-        // Écouteur de changement d'état pour le premier Switch
         switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // Activer ou désactiver les LinearLayout en fonction de l'état du Switch
-                int textColor = isChecked ? Color.BLACK : Color.GRAY; // Couleur différente pour activé/désactivé
+                int textColor = isChecked ? Color.BLACK : Color.GRAY;
                 MaxIText.setTextColor(textColor);
                 MaxISet.setTextColor(textColor);
                 ImageQ.setTextColor(textColor);
@@ -87,15 +84,13 @@ public class App_Settings extends Fragment {
         switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // Activer ou désactiver les LinearLayout en fonction de l'état du Switch
-                int textColor = isChecked ? Color.BLACK : Color.GRAY; // Couleur différente pour activé/désactivé
+                int textColor = isChecked ? Color.BLACK : Color.GRAY;
                 MaxVText.setTextColor(textColor);
                 MaxVSet.setTextColor(textColor);
                 VideoQ.setTextColor(textColor);
                 VideoQSet.setTextColor(textColor);
             }
         });
-        // Gestion des clics sur les LinearLayout pour afficher les dialogues
         themeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -147,7 +142,6 @@ public class App_Settings extends Fragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            // Utilisez NavController pour revenir en arrière
             NavHostFragment.findNavController(this).navigateUp();
             return true;
         }

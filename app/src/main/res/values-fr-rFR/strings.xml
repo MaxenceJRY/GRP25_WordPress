@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WordPress25</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_me">À propos</string>
+    <string name="title_activity_account_settings">Paramètres du compte</string>
+    <!-- Dimensions -->
+    <dimen name="row">48dp</dimen>
+    <string name="title_activity_my_profil">Mon profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- À propos -->
+
+    <string name="about_me">À propos</string>
+    <string name="name">Nom</string>
+    <string name="surname">Prénom</string>
+    <string name="my_p">Mon profil</string>
+    <string name="acc_set">Paramètres du compte</string>
+    <string name="scan">Scanner le code de connexion</string>
+    <string name="app_set">Paramètres de l\'application</string>
+    <string name="help">Aide</string>
+    <string name="share">Partager WordPress avec un ami</string>
+    <string name="about_w">À propos de WordPress</string>
+    <string name="log_out">Déconnexion de WordPress</string>
+
+    <!-- Mon profil -->
+
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="x_first_name">MonPrénom</string>
+    <string name="x_last_name">MonNom</string>
+    <string name="public_d_n">Nom d\'affichage public</string>
+    <string name="x_public_d_n">MonNomPublic</string>
+
+    <!-- Paramètres du compte -->
+
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="x_username">MonUsername</string>
+    <string name="email">Adresse e-mail</string>
+    <string name="x_email">mon.email@gmail.com</string>
+    <string name="primary">Site principal</string>
+    <string name="web_add">Adresse Web</string>
+    <string name="x_web_add">http://tonsite.wordpress.com</string>
+    <string name="change_pass">Changer le mot de passe</string>
+    <string name="close_acc">Fermer le compte</string>
+
+    <!-- Paramètres de l'application -->
+
+    <string name="inter_lang">Langues de l\'interface</string>
+    <string name="x_languages">Français (France)</string>
+    <string name="appearance">Apparence</string>
+    <string name="x_appear">Clair</string>
+    <string name="privacy_sett">Paramètres de confidentialité</string>
+    <string name="open_dev_sett">Ouvrir les paramètres de l\'appareil</string>
+    <string name="init_screen">Écran initial</string>
+    <string name="x_init_screen">Accueil</string>
+    <string name="media">Médias</string>
+    <string name="opti_images">Optimiser les images</string>
+    <string name="enable_opti_i">Activer pour redimensionner et compresser les images</string>
+    <string name="max_image_size">Taille maximale de l\'image</string>
+    <string name="x_max_i_size">3000 px</string>
+    <string name="image_q">Qualité de l\'image</string>
+    <string name="x_image_q">Moyen</string>
+    <string name="remove_loc">Supprimer la géolocalisation des médias</string>
+    <string name="opti_videos">Optimiser les vidéos</string>
+    <string name="enable_opti_v">Activer pour redimensionner et compresser les vidéos</string>
+    <string name="max_videos_size">Taille maximale de la vidéo</string>
+    <string name="x_max_v_size">720p</string>
+    <string name="video_q">Qualité de la vidéo</string>
+    <string name="x_video_q">Haute</string>
+
+    <!-- Aide -->
+
+    <string name="contact_supp">Contacter le support</string>
+    <string name="browse_faq">Parcourir la FAQ</string>
+    <string name="tickets">Tickets</string>
+    <string name="contact_email">E-mail de contact</string>
+    <string name="x_contact_email">Non défini</string>
+    <string name="logs">Journals</string>
+    <string name="version">Version 23.1.0</string>
+
+    <!-- Dialog Log Out -->
+    <string name="log_out_word">Déconnexion de WordPress ?</string>
+
+</resources>
+

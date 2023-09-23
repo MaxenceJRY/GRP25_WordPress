@@ -51,7 +51,6 @@ public class NotificationsFragment extends Fragment {
 
         TabLayout tabLayout = root.findViewById(R.id.tabLayout);
 
-        // Connectez le TabLayout au ViewPager
         tabLayout.setupWithViewPager(viewPager);
         return root;
 
@@ -75,7 +74,6 @@ public class NotificationsFragment extends Fragment {
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            // Ouvrir la page des paramètres ici
             Navigation.findNavController(requireView()).navigate(R.id.notifSettings);
             return true;
         }
